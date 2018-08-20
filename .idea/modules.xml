@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BubblesunPIM.iml" filepath="$PROJECT_DIR$/BubblesunPIM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floatbutton/floatbutton.iml" filepath="$PROJECT_DIR$/floatbutton/floatbutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lovelytoast/lovelytoast.iml" filepath="$PROJECT_DIR$/lovelytoast/lovelytoast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/submitbutton/submitbutton.iml" filepath="$PROJECT_DIR$/submitbutton/submitbutton.iml" />
+    </modules>
+  </component>
+</project>

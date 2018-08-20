@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#11ffffff">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/source_dialog_backgroud"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dialog_hintglobal_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/hintglobal_title"
+            android:textColor="#FF0000"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/dialog_hintglobal_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/dialog_hintglobal_title"
+            android:text="@string/hintglobal_message"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/dialog_hintglobal_div_end"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dialog_hintglobal_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/hintglobal_button"
+                android:textAllCaps="false"
+                android:textColor="#FF0000"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

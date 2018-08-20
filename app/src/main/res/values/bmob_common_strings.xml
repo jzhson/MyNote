@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bmob_common_action_info_exist">Downloading.</string>
+	<string name="bmob_common_info_interrupt">Error download,network available</string>
+	<string name="bmob_common_action_pause">pause</string>
+	<string name="bmob_common_action_continue">continue</string>
+	<string name="bmob_common_action_cancel">cancel</string>
+	<string name="bmob_common_download_notification_prefix">downloading: </string>
+	<string name="bmob_common_pause_notification_prefix">pause: </string>
+	<string name="bmob_common_start_download_notification">Downloading APP</string>
+	<string name="bmob_common_start_patch_notification">update APKs</string>
+    <string name="bmob_common_network_break_alert">Please connect internet then try again!</string>
+	<string name="bmob_common_download_failed">download failed</string>
+	<string name="bmob_common_download_finish">download done.Click to install</string>
+	<string name="bmob_common_patch_finish">update done.Click to install</string>
+	<string name="bmob_common_silent_download_finish">Its a version for you.Click to install</string>
+</resources>

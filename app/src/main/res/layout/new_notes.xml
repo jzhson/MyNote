@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/feedback_div_toplayout"
+        android:layout_width="match_parent"
+        android:background="@color/red"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/feedback_img_back"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icon_back"/>
+
+        <TextView
+            android:id="@+id/newnotes_title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:text="@string/NewNotes_title"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <ImageButton
+            android:id="@+id/saveButton"
+            android:layout_width="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_save_48pt"
+            android:alpha="70"
+            android:background="#00ffffff"/>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/notes_backgroud"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/newnotes_layout_title"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="@string/NewNotes_title_hint"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+        <EditText
+            android:id="@+id/newnotes_edittext_title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textColorHint="#696969"
+            android:textColor="#000000"
+            android:maxLength="20"
+            android:textSize="18dp"
+            android:saveEnabled="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:textSize="20sp"
+            android:textColor="#636363"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/NewNotes_content_hint" />
+
+        <EditText
+            android:id="@+id/newnotes_edittext_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="12dp"
+            android:background="@null"
+            android:gravity="top"
+            android:textSize="16dp"
+            android:paddingLeft="5dp"
+            android:textColor="#626366" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

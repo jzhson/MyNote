@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_menu_settings"
+        android:icon="@drawable/img_settings"
+        android:title="@string/menu_settings" />
+    <item
+        android:id="@+id/nav_menu_sync"
+        android:icon="@drawable/ic_sync_black_48dp"
+        android:title="@string/menu_sync" />
+
+    <item
+        android:id="@+id/nav_menu_about"
+        android:icon="@drawable/img_about"
+        android:title="@string/menu_about" />
+
+    <item
+        android:id="@+id/nav_menu_loginout"
+        android:icon="@drawable/img_about"
+        android:title="@string/menu_loginout" />
+
+
+</group>
+</menu>

@@ -1,0 +1,117 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/notes_backgroud"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <RelativeLayout
+        android:layout_alignParentTop="true"
+        android:id="@+id/notedetails_div_toplayout"
+        android:layout_width="match_parent"
+        android:background="@color/red"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/shownotes_img_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_back"/>
+
+        <TextView
+            android:id="@+id/shownotes_title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:text="@string/ShowNotes_title"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/shownotes_imageview_delete"
+            android:layout_width="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/ic_delete_48pt"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:id="@+id/shownotes_imageview_edit"
+            android:layout_width="30dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_edit_black_48dp"
+            android:layout_height="60dp" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_below="@+id/notedetails_div_toplayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/notesdetails_textview_hint_title"
+            android:textSize="20sp"
+            android:textColor="#636363"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ShowNotes_title_hint" />
+        <TextView
+            android:id="@+id/notesdetails_textview_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColorHint="#696969"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:saveEnabled="true" />
+        <TextView
+            android:id="@+id/notesdetails_textview_hint_content"
+            android:textSize="20dp"
+            android:textColor="#636363"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ShowNotes_content_hint" />
+
+        <ScrollView
+            android:id="@+id/SCROLLER_ID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="12dp"
+
+            android:paddingLeft="5dp"
+            android:fillViewport="true">
+            <TextView
+                android:id="@+id/notesdetails_textview_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="top"
+                android:textSize="16dp"
+                android:textColor="#626366" />
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Bubblesun便签</string>
+
+    <!-- navigation_head  -->
+    <string name="navigation_email">user@bubblesun.top</string>
+    <string name="navigation_nickname">Click icon change nickname</string>
+    <!-- navgation_menu -->
+    <string name="menu_settings">设置</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_loginout">注销登录</string>
+    <!-- toolbar_menu -->
+    <string name="toolbar_share">分享</string>
+    <string name="toolbar_add">添加</string>
+
+
+    <!-- Welcome_page -->
+    <string name="welcome_Loading">加载中...请稍等</string>
+    <string name="welcome_info">张圣毕业设计专用测试版</string>
+
+    <!--Home --><!--nothoing now -->
+
+
+    <!-- Welcome_page -->
+    <string name="listview_title">标题</string>
+    <string name="listview_time">时间</string>
+
+
+    <!-- login -->
+    <string name="login_title">登录以使用便签</string>
+    <string name="login_button_login">登录</string>
+    <string name="login_texthint_username">邮箱</string>
+    <string name="login_texthint_password">密码</string>
+    <string name="login_textview_rememberme">记住密码</string>
+    <string name="login_textview_iforgot">忘记密码</string>
+    <!-- Register -->
+    <string name="register_title">注册新账号</string>
+    <string name="register_button_register">注册</string>
+    <string name="register_texthint_username">邮箱</string>
+    <string name="register_texthint_password">密码</string>
+    <string name="register_texthint_nickname">昵称</string>
+
+    <!--settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_languagechoose">切换语言</string>
+    <string name="settings_checkupdate">检查更新</string>
+    <string name="settings_feedback">反馈与建议</string>
+    <!--sync-->
+    <string name="sync_title">便签同步</string>
+    <string name="sync_textview_syncstatus_noneed">目前暂不需要同步便签</string>
+    <string name="sync_textview_syncstatus_syncnow">需要马上进行同步</string>
+    <string name="sync_textview_syncfromnet">网络同步到本地</string>
+    <string name="sync_textview_savetonet">本地同步到网络</string>
+    <string name="sync_textview_helpme">帮助我选择</string>
+
+    <!-- about -->
+    <string name="about_versiontitle">版本信息</string>
+    <string name="about_title">关于</string>
+    <string name="about_vesion_hint">版本：</string>
+    <string name="about_vesion">Beta 1.0.0</string>
+    <string name="about_update_time">更新时间：</string>
+    <string name="about_time">2017-11-07 00:00:00</string>
+    <string name="about_vesion_check">开启校验：否</string>
+    <string name="about_vesion_more_title">更多说明</string>
+    <string name="about_vesion_more">这个版本仅能让张圣毕业设计做测试使用，非最终上架应用商店的版本。谢谢！</string>
+
+    <!-- EditNotes -->
+    <string name="EditNotes_title">编辑</string>
+    <string name="EditNotes_title_hint">标题</string>
+    <string name="EditNotes_content_hint">内容</string>
+    <!-- NewNotes -->
+    <string name="NewNotes_title">新建便签</string>
+    <string name="NewNotes_title_hint">标题</string>
+    <string name="NewNotes_content_hint">内容：</string>
+    <!-- ShowNotes -->
+    <string name="ShowNotes_title">详情：</string>
+    <string name="ShowNotes_title_hint">标题：</string>
+    <string name="ShowNotes_content_hint">内容：</string>
+
+    <!-- Feedback -->
+    <string name="Feedback_title">反馈与建议</string>
+    <string name="Feedback_title_sendas">发送者:</string>
+    <string name="Feedback_title_hint">标题</string>
+    <string name="Feedback_content_hint">内容：</string>
+    <string name="Feedback_button_submit">提交</string>
+
+
+    <!--Dialog_Languagechoose -->
+    <string name="language_title">选择语言</string>
+    <string name="language_english">英语</string>
+    <string name="language_chinese">简体中文</string>
+    <string name="language_spanish">西班牙语</string>
+    <string name="language_chinesetroditional">繁体中文</string>
+    <string name="language_cancel">取消设定</string>
+    <!--Dialog_Quit -->
+    <string name="quit_yes">确定</string>
+    <string name="quit_no">不确定</string>
+    <string name="quit_title">退出系统</string>
+    <string name="quit_message">你确定退出系统吗？退出，但你所有数据都会被保存在本地/云端</string>
+    <!--Dialog_Delete -->
+    <string name="delete_yes">是的</string>
+    <string name="delete_no">不，留着吧</string>
+    <string name="delete_title">删除标签</string>
+    <string name="delete_message">你确定要删除这条便签吗？三思啊</string>
+    <!--Dialog_CancelEdit -->
+    <string name="CancelEdit_yes">是</string>
+    <string name="CancelEdit_no">否</string>
+    <string name="CancelEdit_title">放弃编辑的数据</string>
+    <string name="CancelEdit_message">退出前是否保存修改的数据？点击否，修改的不会被保存</string>
+    <!--loginout -->
+    <string name="loginout_sure">确定</string>
+    <string name="loginout_notsure">不确定</string>
+    <string name="loginout_title">注销</string>
+    <string name="loginout_hint">你确定要注销登录吗？注销登录后，登录状态，你需要重新登录。数据不会丢失</string>
+    <!--logining-->
+    <string name="logining_tiele">登录</string>
+    <string name="logining_message">登录中，请稍等....</string>
+    <!--download -->
+    <string name="download_title">new version</string>
+    <string name="download_hint1">Wow,there arenew released!you can install when download done</string>
+    <string name="download_hint2">wait....</string>
+    <string name="download_hint3">downloading...0%</string>
+    <string name="download_background">background</string>
+    <!--hintglobal_iforgot-->
+    <string name="hintglobal_title">提示</string>
+    <string name="hintglobal_message">对于你忘记了密码，我们深表遗憾。也很抱歉现在我们不能帮助你重置密码，请在下一个版本中重试。现在，带你前去注册页面注册新账号使用。</string>
+    <string name="hintglobal_button">好的，谢谢</string>
+    <!--hintglobal_canquitregist-->
+    <string name="canquitregist_title">操作被拒绝</string>
+    <string name="canquitregist_message">你应该先注册账号才可以使用本程序哦!</string>
+    <string name="canquitregist_button">好的，继续注册</string>
+    <string name="canquitregist_button_quit">不要了，强制退出</string>
+    <!-- add auto -->
+    <string name="menu_sync">同步</string>
+
+
+    <!--Toast-->
+    <string name="userpwdcantblank">用户名或者密码不能为空!</string>
+    <string name="loginfialed">登录失败，检查信息后重试</string>
+    <string name="networkavailable">网络不可用</string>
+    <string name="input_empty">输入的数据为空，请检查</string>
+    <string name="cancelaction">动作取消</string>
+    <string name="feedback_empty">数据为空!</string>
+    <string name="feedback_success">提交成功，谢谢！</string>
+    <string name="feedback_error">错误!</string>
+
+    <!--Dialog-->
+    <string name="dialog_sync_nonetwork">网络错误，请稍后重试...</string>
+    <string name="dialog_sync_ok">好的</string>
+    <string name="dialog_sync_startservice">正在启动服务...</string>
+    <string name="dialog_sync_running">运行</string>
+    <string name="dialog_sync_deletelocal">删除本地数据 ....</string>
+    <string name="dialog_sync_detelenet">删除服务器数据...</string>
+    <string name="dialog_sync_downnet">从服务器下载数据...</string>
+    <string name="dialog_sync_upnet">上传数据到服务器...</string>
+    <string name="dialog_sync_interpretingdata">正在解析数据...</string>
+    <string name="dialog_sync_syncsucc">同步成功！</string>
+    <string name="dialog_sync_toast_success">完成！</string>
+    <string name="dialog_sync_sure_network">你确定从服务器同步你的便签数据吗？本地数据将会被删除，即使同步不成功</string>
+    <string name="dialog_sync_sure_tonetwork">你确定要将本地数据保存到服务器吗？服务器数据将会被删除，即使同步不成功</string>
+    <string name="dialog_sync_sure_title">同步</string>
+    <string name="dialog_sync_sure_sure">是的</string>
+    <string name="dialog_sync_sure_not">放弃操作</string>
+    <string name="loginsuccess">登陆成功，欢迎</string>
+    <string name="dialogchecksync_tiele">检查信息</string>
+    <string name="dialogchecksync_message">正在检查你是否需要同步</string>
+    <string name="submit_title">稍等</string>
+    <string name="submit_messsage">提交...</string>
+    <string name="register_wrongformat">错误的格式</string>
+    <string name="register_registfiled">"注册失败啊 "</string>
+    <string name="register_registersuccess">注册成功！欢迎</string>
+    <string name="register_userexist">用户已存在！</string>
+
+</resources>

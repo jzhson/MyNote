@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">BubblesunNotes</string>
+
+    <!-- navigation_head  -->
+    <string name="navigation_email">user@bubblesun.top</string>
+    <string name="navigation_nickname">Click icon change nickname</string>
+    <!-- navgation_menu -->
+    <string name="menu_settings">settings</string>
+    <string name="menu_about">about</string>
+    <string name="menu_loginout">login out</string>
+    <string name="menu_sync">sync</string>
+    <!-- toolbar_menu -->
+    <string name="toolbar_share">share</string>
+    <string name="toolbar_add">add new</string>
+
+    <!-- Welcome_page -->
+    <string name="welcome_Loading">Loading...please wait</string>
+    <string name="welcome_info">For Zhang Sheng’s graduation project only!Only for test!</string>
+
+    <!--Home --><!--nothoing now -->
+
+
+    <!-- Welcome_page -->
+    <string name="listview_title">Title</string>
+    <string name="listview_time">Time</string>
+
+
+    <!-- login -->
+    <string name="login_title">Log in</string>
+    <string name="login_button_login">Login</string>
+    <string name="login_texthint_username">email address</string>
+    <string name="login_texthint_password">password</string>
+    <string name="login_textview_rememberme">remember me</string>
+    <string name="login_textview_iforgot">I forgot?</string>
+    <string name="login_toast_wrongpwd">Wrong password！</string>
+    <!-- Register -->
+    <string name="register_title">Register Account</string>
+    <string name="register_button_register">Register</string>
+    <string name="register_texthint_username">email address</string>
+    <string name="register_texthint_password">password</string>
+    <string name="register_texthint_nickname">nickname</string>
+    <string name="register_wrongformat">wrong format</string>
+    <string name="register_registfiled">Regist failed</string>
+    <string name="register_registersuccess">Register success!Welcome</string>
+    <string name="register_userexist">User is already exist!</string>
+
+
+    <!--settings -->
+    <string name="settings_title">settings</string>
+    <string name="settings_languagechoose">switch language</string>
+    <string name="settings_checkupdate">check update</string>
+    <string name="settings_feedback">feedback</string>
+
+    <!--sync-->
+    <string name="sync_title">Sync notes</string>
+    <string name="sync_textview_syncstatus_noneed">no need sync</string>
+    <string name="sync_textview_syncstatus_syncnow">should sync now</string>
+    <string name="sync_textview_syncfromnet">Sync from network</string>
+    <string name="sync_textview_savetonet">Sync to network</string>
+    <string name="sync_textview_helpme">help me choose</string>
+
+    <!-- about -->
+    <string name="about_versiontitle">version info</string>
+    <string name="about_title">about</string>
+    <string name="about_vesion_hint">version:</string>
+    <string name="about_vesion">Beta 1.0.0</string>
+    <string name="about_update_time">time:</string>
+    <string name="about_time">2017-11-07 00:00:00</string>
+    <string name="about_vesion_check">check:no</string>
+    <string name="about_vesion_more_title">more</string>
+    <string name="about_vesion_more">This version can only be used in Zhang Sheng’s graduation project.Is not the official of the app store version.Thanks</string>
+
+    <!-- EditNotes -->
+    <string name="EditNotes_title">Edit</string>
+    <string name="EditNotes_title_hint">title</string>
+    <string name="EditNotes_content_hint">content:</string>
+    <!-- NewNotes -->
+    <string name="NewNotes_title">New Notes</string>
+    <string name="NewNotes_title_hint">title</string>
+    <string name="NewNotes_content_hint">content:</string>
+    <!-- ShowNotes -->
+    <string name="ShowNotes_title">Details:</string>
+    <string name="ShowNotes_title_hint">title:</string>
+    <string name="ShowNotes_content_hint">content:</string>
+
+    <!-- Feedback -->
+    <string name="Feedback_title">Feedback</string>
+    <string name="Feedback_title_sendas">send as:</string>
+    <string name="Feedback_title_hint">title</string>
+    <string name="Feedback_content_hint">content:</string>
+    <string name="Feedback_button_submit">submit</string>
+
+
+    <!--Dialog_Languagechoose -->
+    <string name="language_title">Language Choose</string>
+    <string name="language_english">English</string>
+    <string name="language_chinese">simplified Chinese</string>
+    <string name="language_spanish">Spanish</string>
+    <string name="language_chinesetroditional">traditional Chinese</string>
+    <string name="language_cancel">Cancel</string>
+    <!--Dialog_Quit -->
+    <string name="quit_yes">YES,sure</string>
+    <string name="quit_no">NO,not sure</string>
+    <string name="quit_title">quit System</string>
+    <string name="quit_message">Are you sure quit system now? App data will be saved</string>
+    <!--Dialog_Delete -->
+    <string name="delete_yes">YES</string>
+    <string name="delete_no">NO</string>
+    <string name="delete_title">Delete Notes</string>
+    <string name="delete_message">Are you sure Delete this Notes？</string>
+    <!--Dialog_CancelEdit -->
+    <string name="CancelEdit_yes">YES</string>
+    <string name="CancelEdit_no">NO</string>
+    <string name="CancelEdit_title">Save before quit</string>
+    <string name="CancelEdit_message">Saved before quit？Click “yes” data will be save ，or not</string>
+    <!--loginout -->
+    <string name="loginout_sure">YES,sure</string>
+    <string name="loginout_notsure">NO,not sure</string>
+    <string name="loginout_title">login out</string>
+    <string name="loginout_hint">Are you sure login out? App will restart to login page and you need login again</string>
+    <!--logining-->
+    <string name="logining_tiele">Login</string>
+    <string name="logining_message">Logining...please wait</string>
+    <!--sync-->
+    <string name="dialogchecksync_tiele">Check Info</string>
+    <string name="dialogchecksync_message">"Checking if you need to sync with server"</string>
+    <!--download -->
+    <string name="download_title">new version</string>
+    <string name="download_hint1">Wow,there arenew released!you can install when download done</string>
+    <string name="download_hint2">wait....</string>
+    <string name="download_hint3">downloading...0%</string>
+    <string name="download_background">background</string>
+    <!--hintglobal_iforgot-->
+    <string name="hintglobal_title">Message</string>
+    <string name="hintglobal_message">We are so sorry you forgot your password!Now you need regist a new account to use.For password,may in next version we can help you to reset,thanks!So take you into register page now!</string>
+    <string name="hintglobal_button">OK,thanks</string>
+    <!--hintglobal_canquitregist-->
+    <string name="canquitregist_title">Deny Action</string>
+    <string name="canquitregist_message">You should register account first!</string>
+    <string name="canquitregist_button">OK,keep</string>
+    <string name="canquitregist_button_quit">No,quit anyway</string>
+
+    <!--Toast-->
+    <string name="userpwdcantblank">e-mail or password cant be blank!</string>
+    <string name="loginsuccess">Login success!welcome</string>
+    <string name="loginfialed">Login fialed,check your info</string>
+    <string name="networkavailable">Network available</string>
+    <string name="input_empty">Input null,please check!</string>
+    <string name="cancelaction">cancel action!</string>
+    <string name="submit_title">Wait</string>
+    <string name="submit_messsage">submit....</string>
+    <string name="feedback_empty">Empty data!</string>
+    <string name="feedback_success">Submit success!Thank you</string>
+    <string name="feedback_error">Error!</string>
+
+    <!--Dialog-->
+    <string name="dialog_sync_nonetwork">network error,try again later...</string>
+    <string name="dialog_sync_ok">OK</string>
+    <string name="dialog_sync_startservice">Starting sync service...</string>
+    <string name="dialog_sync_running">Running...</string>
+    <string name="dialog_sync_deletelocal">Delete local data ....</string>
+    <string name="dialog_sync_detelenet">Delete server data...</string>
+    <string name="dialog_sync_downnet">Download data from server...</string>
+    <string name="dialog_sync_upnet">Upload data to server...</string>
+    <string name="dialog_sync_interpretingdata">Interpreting data...</string>
+    <string name="dialog_sync_syncsucc">Sync notes success...</string>
+    <string name="dialog_sync_toast_success">Done!</string>
+    <string name="dialog_sync_sure_network">Are you sure sync data from network?All local notes data will be delete and download from network</string>
+    <string name="dialog_sync_sure_tonetwork">Are you sure save data to network?All  notes data in server will be delete and upload local data</string>
+    <string name="dialog_sync_sure_title">Sync</string>
+    <string name="dialog_sync_sure_sure">Yes</string>
+    <string name="dialog_sync_sure_not">No</string>
+    <!--Other-->
+
+</resources>
